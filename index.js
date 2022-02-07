@@ -1,8 +1,5 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-const Department = require('./lib/Department');
-const Employee = require('./lib/Employee');
-const Role = require('./lib/Role');
 const fs = require('fs');
 
 // Connect to database
