@@ -135,11 +135,11 @@ addRole = () => {
     ])
     .then((optionResponse) => {
         const parameters = [optionResponse.newRole, optionResponse.newSalary];
-        const newRoleSql = `SELECT deptartments, id FROM department`;
+        const newRoleSql = `INSERT INTO roles(roles_id, salary) VALUES (?, ?)`;
 
         db.query(newRoleSql, (err, res) => {
             if (err) throw err;
-            const dept = res.map(({ dept_name, id }) => ({ name: dept_name, value: id }));
+            const dept = res.map(({ department, id }) => ({ name: department, value: id }));
 
             inquirer.prompt([
                 {
@@ -273,7 +273,7 @@ updateRole = () => {
             const parameters = [];
             parameters.push(employee);
 
-            const newRoleSql = `SELECT * FROM employee`;
+            const newRoleSql = `SELECT first_name FROM roles`;
 
             db.query(newRoleSql, (err, res) => {
                 if (err) throw err;
