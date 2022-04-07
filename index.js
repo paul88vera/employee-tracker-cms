@@ -16,24 +16,25 @@ const db = mysql.createConnection(
 );
 
 const startTask = () => {
-  inquirer.prompt([
-    {
-      type: "list",
-      name: "selectTask",
-      message: "What would you like to do?",
-      choices: [
-        "View All Employees",
-        "View All Employees By Department",
-        "View All Employees by Manager",
-        "Add Employee",
-        "Remove Employee",
-        "Update Employee Role",
-        "Update Employee Manager",
-      ],
-      default: false
-    }
-  ])
-    .then()
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        name: "selectTask",
+        message: "What would you like to do?",
+        choices: [
+          "View All Employees",
+          "View All Employees By Department",
+          "View All Employees by Manager",
+          "Add Employee",
+          "Remove Employee",
+          "Update Employee Role",
+          "Update Employee Manager",
+        ],
+        default: false,
+      },
+    ])
+    .then().whichDepartment();
 };
 
 const whichDepartment = () => {
