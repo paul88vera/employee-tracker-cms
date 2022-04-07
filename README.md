@@ -16,6 +16,7 @@ The Employee Tracker is a great way to maintain records of who is employed in yo
 
 - Download the zip file.
 - Open the project.
+- Type `npm i` to install all dependencies.
 - Type `mysql -u root`:
 
 ```
@@ -23,7 +24,6 @@ source db/db.sql; source db/schema.sql; source db/seeds.sql;
 ```
 
 - Open terminal in the correct pathway.
-- Type `npm i` to install all dependencies.
 - Type `npm start` to run inquirer.
 - Answer the questions to view, update, or add an employee.
 
