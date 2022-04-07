@@ -13,7 +13,7 @@ The Employee Tracker is a great way to maintain records of who is employed in yo
 - [Questions](#questions)
 
 ## Installation
-
+* [View Tutorial](https://drive.google.com/file/d/1sLNuFF7PNG6KU09DydrpoMXiLIuWi4Xm/view)
 - Download the zip file.
 - Open the project.
 - Type `npm i` to install all dependencies.
