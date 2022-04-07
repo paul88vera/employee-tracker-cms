@@ -25,5 +25,5 @@ VALUES
 (5, 'Brenda', 'Barney', 108, NULL),
 (6, 'Jeffrey', 'Chaos', 110, 108),
 (7, 'Lucy', 'Dezi', 109, NULL),
-(8, 'Wendy', 'Franks', 107, 109);
+(8, 'Wendy', 'Franks', 115, 109);
 
