@@ -1,48 +1,55 @@
+# Employee Tracker
 
-  # Employee Tracker
+## Description
 
-  ## Description
-  The Employee Tracker is a great way to maintain records of who is employed in your company.
+The Employee Tracker is a great way to maintain records of who is employed in your company.
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Questions](#questions)
+## Table of Contents
 
-  ## Installation
-  * Download the zip file. 
-  * Open the project. 
-  * Type `mysql -u root`:
-   ```
-   $ source db/db.sql; source db/schema.sql; source db/seeds.sql;
-   ```
-  * Open terminal in the correct pathway.
-  * Type `npm i` to install all dependencies.
-  * Type `npm start` to run inquirer. 
-  * Answer the questions to view, update, or add an employee.
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-  ## Usage
-  This can be used as a record for businesses to keep track of their employee that are coming and going.
+## Installation
 
-  ## License
-  License under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license
+- Download the zip file.
+- Open the project.
+- Type `mysql -u root`:
 
-  ## Contributing
-  * JavaScript 
-  * Inquirer 
-  * Jest
-  * MySQL
+```
+source db/db.sql; source db/schema.sql; source db/seeds.sql;
+```
 
-  
-----
-  ## Questions
-  If you have questions, you can contact me below!
-  
-  GitHub Username: paul88vera
+- Open terminal in the correct pathway.
+- Type `npm i` to install all dependencies.
+- Type `npm start` to run inquirer.
+- Answer the questions to view, update, or add an employee.
 
-  GitHub Profile: [Github.com/paul88vera](https://github.com/paul88vera/)
+## Usage
 
-  Email Address: paul88vera@gmail.com
- 
+This can be used as a record for businesses to keep track of their employee that are coming and going.
+
+## License
+
+License under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license
+
+## Contributing
+
+- JavaScript
+- Inquirer
+- Jest
+- MySQL
+
+---
+
+## Questions
+
+If you have questions, you can contact me below!
+
+GitHub Username: paul88vera
+
+GitHub Profile: [Github.com/paul88vera](https://github.com/paul88vera/)
+
+Email Address: paul88vera@gmail.com
