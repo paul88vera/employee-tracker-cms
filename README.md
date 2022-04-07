@@ -18,7 +18,9 @@
    ```
    $ source db/db.sql; source db/schema.sql; source db/seeds.sql;
    ```
-  * Type `npm start` in the terminal. 
+  * Open terminal in the correct pathway.
+  * Type `npm i` to install all dependencies.
+  * Type `npm start` to run inquirer. 
   * Answer the questions to view, update, or add an employee.
 
   ## Usage
